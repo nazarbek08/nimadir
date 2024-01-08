@@ -1,0 +1,64 @@
+.box{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(225, 225, 246);
+    margin-top: 200px;
+    margin-left: 300px;
+    display: block;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px;
+}
+.box:hover{
+    border: 10px solid rgb(0, 255, 26);
+    margin-top: 193px;
+    margin-left: 290px;
+    box-shadow: 0px 0px;
+}
+
+.bot{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(225, 225, 246);
+    margin-top: -450px;
+    margin-left: 700px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px;
+}
+.bot:hover{
+    border: 10px solid rgb(0, 255, 26);
+    margin-top: -458px;
+    margin-left: 692px;
+    box-shadow: 0px 0px;
+}
+.wer{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(225, 225, 246);
+    margin-top: -450px;
+    margin-left: 1100px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px;
+}
+.wer:hover{
+    margin-top: -460px;
+    margin-left: 1090px;
+    border: 10px solid rgb(0, 255, 26);
+    box-shadow: 0px 0px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+p{
+    font-size: 25px;
+    color: hsl(237, 28%, 43%);
+    margin-left: 50px;
+}
+.box:hover ~.bot{
+    margin-top: -460px;
+}
+.bot:hover ~.wer{
+    margin-top: -459px;
+}
